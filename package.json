@@ -1,0 +1,15 @@
+{
+    "name": "ts-api-doc",
+    "version": "1.0.0",
+    "description": "TS-AI API Documentation",
+    "type": "module",
+    "scripts": {
+        "dev": "vitepress dev docs",
+        "build": "vitepress build docs",
+        "preview": "vitepress preview docs"
+    },
+    "devDependencies": {
+        "vitepress": "^1.0.0",
+        "vue": "^3.0.0"
+    }
+}

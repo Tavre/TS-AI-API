@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "target": "ESNext",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": [
+            "vite/client"
+        ]
+    },
+    "include": [
+        "docs/.vitepress/**/*.ts",
+        "docs/.vitepress/**/*.mts",
+        "docs/.vitepress/**/*.vue"
+    ],
+    "exclude": [
+        "node_modules",
+        "docs/.vitepress/dist",
+        "docs/.vitepress/cache"
+    ]
+}
