@@ -31,8 +31,6 @@ export default defineConfig({
                 items: [
                     { text: '查询余额', link: '/user-balance' },
                     { text: '图像生成', link: '/image-generation' },
-                    { text: 'Grok 图像生成', link: '/grok' },
-                    { text: '视频生成', link: '/video-generation' },
                     { text: '任务状态查询', link: '/task-status' }
                 ]
             },
