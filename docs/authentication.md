@@ -24,7 +24,7 @@ API Key 通过主 API (`api.php`) 管理：
 ### 生成 API Key 示例
 
 ```bash
-curl -X POST "https://api.tavr.top/TS-AI-API/api.php?action=generate_api_key" \
+curl -X POST "https://api.tavr.top/api.php?action=generate_api_key" \
   -H "Content-Type: application/json" \
   -d '{"token": "你的登录token"}'
 ```

@@ -3,7 +3,7 @@
 ## 查询余额
 
 ```bash
-curl -s "https://api.tavr.top/TS-AI-API/v1/index.php?endpoint=user_balance" \
+curl -s "https://api.tavr.top/v1/index.php?endpoint=user_balance" \
   -H "x-api-key: sk-your_api_key_here"
 ```
 
@@ -11,7 +11,7 @@ curl -s "https://api.tavr.top/TS-AI-API/v1/index.php?endpoint=user_balance" \
 
 ```bash
 curl -s -X POST \
-  "https://api.tavr.top/TS-AI-API/v1/index.php?endpoint=image_generation" \
+  "https://api.tavr.top/v1/index.php?endpoint=image_generation" \
   -H "Content-Type: application/json" \
   -H "x-api-key: sk-your_api_key_here" \
   -d '{
@@ -26,7 +26,7 @@ curl -s -X POST \
 
 ```bash
 curl -s \
-  "https://api.tavr.top/TS-AI-API/v1/index.php?endpoint=task_status&task_id=YOUR_TASK_ID" \
+  "https://api.tavr.top/v1/index.php?endpoint=task_status&task_id=YOUR_TASK_ID" \
   -H "x-api-key: sk-your_api_key_here"
 ```
 
@@ -35,7 +35,7 @@ curl -s \
 ```bash
 #!/bin/bash
 API_KEY="sk-your_api_key_here"
-BASE="https://api.tavr.top/TS-AI-API/v1/index.php"
+BASE="https://api.tavr.top/v1/index.php"
 
 # 1. 提交任务
 TASK_ID=$(curl -s -X POST "$BASE?endpoint=image_generation" \

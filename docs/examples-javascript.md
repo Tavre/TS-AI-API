@@ -5,7 +5,7 @@
 ## 完整示例
 
 ```javascript
-const API_BASE = "https://api.tavr.top/TS-AI-API/v1/index.php";
+const API_BASE = "https://api.tavr.top/v1/index.php";
 const API_KEY = "sk-your_api_key_here";
 
 /**
@@ -88,7 +88,7 @@ generateAndPoll("1girl, sakura, masterpiece")
 ```javascript
 class TsAiClient {
   constructor(apiKey) {
-    this.base = "https://api.tavr.top/TS-AI-API/v1/index.php";
+    this.base = "https://api.tavr.top/v1/index.php";
     this.apiKey = apiKey;
   }
 

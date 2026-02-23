@@ -12,7 +12,7 @@ pip install requests
 import requests
 import time
 
-API_BASE = "https://api.tavr.top/TS-AI-API/v1/index.php"
+API_BASE = "https://api.tavr.top/v1/index.php"
 API_KEY = "sk-your_api_key_here"
 HEADERS = {"x-api-key": API_KEY, "Content-Type": "application/json"}
 
