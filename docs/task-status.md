@@ -44,7 +44,7 @@ x-api-key: sk-xxxxxxxxxxxx
     "status": "completed",
     "created_at": null,
     "result": {
-      "image_url": "https://api.tavr.top/TS-AI-API/uploads/comfy_TSAI_API_00001_.png"
+      "image_url": "https://api.tavr.top/uploads/comfy_TSAI_API_00001_.png"
     }
   },
   "error": null
