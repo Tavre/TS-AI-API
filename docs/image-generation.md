@@ -81,7 +81,6 @@ x-api-key: sk-xxxxxxxxxxxx
 
 使用 Grok 模型进行图像生成。支持通过 Token 或 API Key 进行鉴权。
 
-## Grok 图像生成
 
 ### 接口说明
 

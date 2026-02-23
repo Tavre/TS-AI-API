@@ -1,6 +1,6 @@
 # 概述
 
-TS-AI 开发者 API 提供 **AI 图像生成**能力，后端支持 **ComfyUI**（自部署 Stable Diffusion）和 **RR3**（第三方云端生成）两个图像引擎。
+TS-AI 开发者 API 提供 **AI 图像生成**、**视频生成**和**图片编辑**能力，后端支持 **ComfyUI**（自部署 Stable Diffusion / Wan2.2 / Flux-2）和 **RR3**（第三方云端生成）多个引擎。
 
 **Base URL**
 
@@ -19,7 +19,9 @@ https://api.tavr.top/v1/index.php
                └── endpoints/
                     |── UserBalance.php      — 余额查询
                     |── ImageGeneration.php  — 图像生成（异步提交）
-                    └── TaskStatus.php       — 任务轮询 & 图片获取
+                    |── VideoGeneration.php  — 视频生成（文生视频/图生视频）
+                    |── ImageEditing.php     — 图片编辑（Flux-2 Klein）
+                    └── TaskStatus.php       — 任务轮询 & 结果获取
 ```
 
 ## 典型调用流程

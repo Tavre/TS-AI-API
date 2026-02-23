@@ -87,3 +87,31 @@ TS-AI API 支持四种图像生成工作流，通过 `workflow` 参数指定。
 
 > [!NOTE]
 > RR3 工作流的 task_id 为纯数字格式，ComfyUI 工作流为 UUID 格式。系统会自动识别并路由到正确的提供者。
+
+---
+
+## 视频生成工作流
+
+视频生成通过独立端点 [`video_generation`](/video-generation) 调用，支持两种模式：
+
+| 模式  | 说明       | 模型                    | 费用     |
+| ----- | ---------- | ----------------------- | -------- |
+| `i2v` | 图生视频   | Wan2.2 AllInOne I2V     | 200 积分 |
+| `t2v` | 文生视频   | Wan2.2 AllInOne T2V     | 200 积分 |
+
+- **引擎**：ComfyUI（Wan2.2 AllInOne 加速模型）
+- **特点**：4 步出图，速度快
+- **采样器**：Euler Ancestral，scheduler: beta
+
+## 图片编辑工作流
+
+图片编辑通过独立端点 [`image_editing`](/image-editing) 调用。
+
+| 模型            | 说明           | 费用    |
+| --------------- | -------------- | ------- |
+| Flux-2 Klein 9B | 单图编辑       | 20 积分 |
+
+- **引擎**：ComfyUI（Flux-2 Klein）
+- **特点**：6 步生成，支持换装、风格变换等
+- **采样器**：Euler Simple
+
