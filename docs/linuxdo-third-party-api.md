@@ -1,6 +1,6 @@
 # 第三方开发者 API 文档（Linux DO 版）
 
-本页面向第三方开发者调用 Linux DO 版 API。
+本页面向第三方开发者调用 Linux DO 版 API，用于绘画。
 
 ## 基础信息
 
