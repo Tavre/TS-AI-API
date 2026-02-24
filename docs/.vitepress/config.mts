@@ -2,7 +2,7 @@
 
 export default defineConfig({
   title: 'TS-AI API',
-  description: 'TS-AI Developer API Docs',
+  description: 'TS-AI 开发者 API 文档',
   lang: 'zh-CN',
 
   head: [
@@ -11,38 +11,38 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/authentication' },
-      { text: 'API Reference', link: '/image-generation' }
+      { text: '首页', link: '/' },
+      { text: '开始使用', link: '/authentication' },
+      { text: 'API 参考', link: '/image-generation' }
     ],
 
     sidebar: [
       {
-        text: 'Basics',
+        text: '入门',
         items: [
-          { text: 'Overview', link: '/overview' },
-          { text: 'Authentication', link: '/authentication' }
+          { text: '概览', link: '/overview' },
+          { text: '认证方式', link: '/authentication' }
         ]
       },
       {
-        text: 'API Endpoints',
+        text: 'API 端点',
         items: [
-          { text: 'User Balance', link: '/user-balance' },
-          { text: 'Image Generation', link: '/image-generation' },
-          { text: 'Video Generation', link: '/video-generation' },
-          { text: 'Image Editing', link: '/image-editing' },
-          { text: 'Task Status', link: '/task-status' }
+          { text: '查询余额', link: '/user-balance' },
+          { text: '图像生成', link: '/image-generation' },
+          { text: '视频生成', link: '/video-generation' },
+          { text: '图片编辑', link: '/image-editing' },
+          { text: '任务状态查询', link: '/task-status' }
         ]
       },
       {
-        text: 'Advanced',
+        text: '进阶',
         items: [
-          { text: 'Workflows', link: '/workflows' },
-          { text: 'Error Codes', link: '/error-codes' }
+          { text: '工作流详解', link: '/workflows' },
+          { text: '错误码参考', link: '/error-codes' }
         ]
       },
       {
-        text: 'Examples',
+        text: '示例代码',
         items: [
           { text: 'cURL', link: '/examples-curl' },
           { text: 'Python', link: '/examples-python' },
@@ -50,10 +50,10 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Appendix',
+        text: '附录',
         items: [
-          { text: 'Pricing', link: '/pricing' },
-          { text: 'Database', link: '/database' }
+          { text: '费用说明', link: '/pricing' },
+          { text: '数据库结构', link: '/database' }
         ]
       }
     ],
